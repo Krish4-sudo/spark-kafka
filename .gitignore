@@ -1,0 +1,36 @@
+# Environment files
+config/.env
+*.env
+
+# Data directories
+data/output/*
+data/checkpoints/*
+logs/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep directory structure
+!data/output/.gitkeep
+!data/checkpoints/.gitkeep
+!logs/.gitkeep
